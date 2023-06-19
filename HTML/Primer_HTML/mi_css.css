@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(100, 100, 25);
+    color: darkblue;
+}
+
+#algo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    padding: auto;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(55, 124, 34);
+    color:darkblue;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    /*text-align: center;*/
+    background-color: rgb(138, 138, 90);
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(55, 124, 34);
+}
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(55, 124, 34);
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
